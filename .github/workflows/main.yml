@@ -17,7 +17,7 @@ jobs:
         SSH_PRIVATE_KEY: ${{secrets.EC2_SSH_KEY}}
         ARGS: "-rltgoDzvO --delete"
         SOURCE: "./"
-        REMOTE_HOST: "3.235.249.116"
+        REMOTE_HOST: "3.237.77.112"
         REMOTE_USER: "bitnami"
         TARGET: "/home/bitnami/htdocs"
         EXCLUDE: "/dist/, /node_modules/, **.env, rebuild_app.sh, watcher.sh"
